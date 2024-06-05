@@ -19,7 +19,7 @@ This is a Laravel package for integrating with the Esendex SMS service, and you 
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/MirkoFarina/test-sms.git"
+        "url": "https://github.com/MirkoFarina/sms-esendex-laravel.git"
     }
 ]
 ```
