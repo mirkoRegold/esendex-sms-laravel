@@ -1,0 +1,29 @@
+{
+    "name": "regoldidealista/esendex-laravel",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Regoldidealista\\EsendexLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mirko Farina",
+            "email": "mfarina@idealista.it"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Regoldidealista\\EsendexLaravel\\SmsServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.3",
+        "illuminate/support": "^11.0",
+        "illuminate/notifications": "^11.0"
+    }
+}
