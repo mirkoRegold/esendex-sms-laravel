@@ -25,12 +25,6 @@ This is a Laravel package for integrating with the Esendex SMS service, and you 
 ```
 
 3. Run `composer update` in your terminal.
-## Publishing the Configuration File
-   After installing the package, you should publish the configuration file to your Laravel application. This will allow you to modify the package's configuration options.  Run the following command in your terminal:
-```bash 
-php artisan vendor:publish --provider="Regoldidealista\EsendexLaravel\SmsServiceProvider" 
-```
-This command will publish the sms.php configuration file from the package to your Laravel application's config directory. You can find the published configuration file at config/sms.php.
 
 ## Usage
 
@@ -43,8 +37,15 @@ This command will publish the sms.php configuration file from the package to you
     Regoldidealista\EsendexLaravel\SmsServiceProvider::class,
 ],
 ```
+2. Publishing the Configuration File <br>
+After installing the package, you should publish the configuration file to your Laravel application. This will allow you to modify the package's configuration options.  Run the following command in your terminal:
+```bash 
+php artisan vendor:publish --provider="Regoldidealista\EsendexLaravel\SmsServiceProvider" 
+```
+This command will publish the sms.php configuration file from the package to your Laravel application's config directory. You can find the published configuration file at config/sms.php.
 
-2. Use the `SmsNotification` class to send SMS notifications:
+
+3. Use the `SmsNotification` class to send SMS notifications:
 
 ```php
 use Regoldidealista\EsendexLaravel\Notification\SmsNotification;
