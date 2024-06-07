@@ -3,29 +3,9 @@
 This is a Laravel package for integrating with the Esendex SMS service, and you can set you own backup provider.
 
 ## Installation
-
-1. Add the package to your `composer.json` file:
-
-```json
-"require": {
-    "php": "^8.3",
-    "regoldidealista/esendex-laravel": "dev-main"
-}
+```bash
+composer require regoldidealista/esendex-laravel
 ```
-
-2. Add the GitHub repository to the `repositories` section:
-
-```json
-"repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/mirkoRegold/esendex-sms-laravel.git"
-    }
-]
-```
-
-3. Run `composer update` in your terminal.
-
 ## Usage
 
 1. Register the service provider in your `config/app.php` file:
