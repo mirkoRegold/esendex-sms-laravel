@@ -1,6 +1,7 @@
 {
     "name": "regoldidealista/esendex-laravel",
-    "type": "project",
+    "description": "This is a Laravel package for integrating with the Esendex SMS provider, but if you want you can implements your own service as a backup.",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -22,7 +23,7 @@
         }
     },
     "require": {
-        "php": "^8.3",
+        "php": "^8.1",
         "illuminate/support": "^11.0",
         "illuminate/notifications": "^11.0"
     }
