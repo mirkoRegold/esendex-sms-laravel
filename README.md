@@ -28,7 +28,7 @@ This command will publish the sms.php configuration file from the package to you
 3. Use the `SmsNotification` class to send SMS notifications:
 
 ```php
-use Regoldidealista\EsendexLaravel\Notification\SmsNotification;
+use Regoldidealista\EsendexLaravel\Notifications\SmsNotification;
 
 class YourNotification extends SmsNotification
 {

@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace Regoldidealista\EsendexLaravel\Notification;
+namespace Regoldidealista\EsendexLaravel\Notifications;
 
-use Regoldidealista\EsendexLaravel\Channel\ChannelInterface;
+use Regoldidealista\EsendexLaravel\Channels\ChannelInterface;
 use Regoldidealista\EsendexLaravel\Contracts\SmsServiceInterface;
 
 interface SmsNotificationInterface
