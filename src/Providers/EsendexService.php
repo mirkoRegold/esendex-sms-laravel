@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Regoldidealista\EsendexLaravel\Provider;
+namespace Regoldidealista\EsendexLaravel\Providers;
 
 use Regoldidealista\EsendexLaravel\Contracts\DefaultSmsServiceInterface;
 use Regoldidealista\EsendexLaravel\Contracts\SmsServiceInterface;

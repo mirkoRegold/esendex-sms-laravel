@@ -7,7 +7,7 @@ return [
     */
     'defaultProvider' =>
         [
-            'provider' => Regoldidealista\EsendexLaravel\Provider\EsendexService::class,
+            'provider' => Regoldidealista\EsendexLaravel\Providers\EsendexService::class,
             'url' => env('SMS_ESENDEX_URL'),
             'smsType' => env('SMS_ESENDEX_SMS_TYPE'),
             'sender' => env('SMS_ESENDEX_SENDER'),
